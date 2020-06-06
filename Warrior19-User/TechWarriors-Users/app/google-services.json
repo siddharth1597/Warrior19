@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "942507966924",
+    "firebase_url": "https://techwarriors-279009.firebaseio.com",
+    "project_id": "techwarriors-279009",
+    "storage_bucket": "techwarriors-279009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942507966924:android:d3c12d7e057942b5645d69",
+        "android_client_info": {
+          "package_name": "sidsim.techwarriors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942507966924-j1ngo31kmr3tu4ai8pkfktuhsgpeekif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sidsim.techwarriors",
+            "certificate_hash": "5e8286db6e36edb37abfc66d542aae13785d8881"
+          }
+        },
+        {
+          "client_id": "942507966924-5o9tr9spmqbmutf9l1o1gqbd05qtmkg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sidsim.techwarriors",
+            "certificate_hash": "9371f637497cd04f9b493fdd9fed56e3c9d1cc67"
+          }
+        },
+        {
+          "client_id": "942507966924-6shfidrdogf2rv80j09fhr0bm37slio5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS4NTlRs97DiD3xGnrHYwggBqos0OvKjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942507966924-6shfidrdogf2rv80j09fhr0bm37slio5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942507966924:android:10f40c4d7661da4e645d69",
+        "android_client_info": {
+          "package_name": "sidsim.techwarriors_users"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942507966924-gggll5src2kkqbh8qjgjtim3i82cnkm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sidsim.techwarriors_users",
+            "certificate_hash": "9371f637497cd04f9b493fdd9fed56e3c9d1cc67"
+          }
+        },
+        {
+          "client_id": "942507966924-6shfidrdogf2rv80j09fhr0bm37slio5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS4NTlRs97DiD3xGnrHYwggBqos0OvKjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942507966924-6shfidrdogf2rv80j09fhr0bm37slio5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

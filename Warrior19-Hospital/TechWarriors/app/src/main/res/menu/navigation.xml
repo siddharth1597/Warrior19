@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/maps"
+        android:title="@string/MapView" />
+
+    <item
+        android:id="@+id/navigation_normal"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/normal" />
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/settings"
+        android:title="@string/about" />
+
+</menu>

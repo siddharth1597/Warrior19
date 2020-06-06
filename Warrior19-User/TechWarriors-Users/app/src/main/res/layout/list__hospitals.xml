@@ -1,0 +1,147 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f5f5f5"
+    tools:context=".List_Hospitals">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/hospital"
+            android:layout_weight=".2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="List of Hospitals"
+            android:padding="8dp"
+            android:textSize="25dp"
+            android:layout_weight=".8"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/linear">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/white_rounded_corner"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Search according to your range"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/white_rounded_corner"
+                android:text="2km"
+                android:elevation="5dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginRight="10dp"
+                android:layout_weight=".25"
+                android:onClick="two_km"
+                />
+            <Button
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/white_rounded_corner"
+                android:layout_marginBottom="5dp"
+                android:elevation="3dp"
+                android:text="5km"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginRight="10dp"
+                android:layout_weight=".25"
+                android:onClick="five_km"
+                />
+            <Button
+                android:id="@+id/ten"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/white_rounded_corner"
+                android:text="10km"
+                android:textColor="@android:color/darker_gray"
+                android:elevation="3dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight=".25"
+                android:onClick="ten_km"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".25">
+
+                <EditText
+                    android:id="@+id/enter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toStartOf="@+id/enter_val"
+                    android:background="@drawable/white_rounded_corner"
+                    android:elevation="3dp"
+                    android:hint="type"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:maxLines="1"
+                    android:padding="3dp"
+                    android:textAlignment="center"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/enter_val"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:elevation="3dp"
+                    android:onClick="enter"
+                    android:text="ok"
+                    android:textColor="@android:color/darker_gray" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

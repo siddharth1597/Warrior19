@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Warrior19-Hospital</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="select_hospital_name">Select Hospital Name</string>
+    <string-array name="hospitals">
+        <item>City Hospital</item>
+        <item>Sai Hospital</item>
+        <item>Lok Nayak Hospital</item>
+        <item>GB Pant Hospital</item>
+        <item>Rajiv Gandhi Super Speciality Hospital</item>
+        <item>Navajeevan Hospital</item>
+        <item>Tiruvarur Medical Centre</item>
+        <item>K.G. Multi-Speciality Hospital</item>
+        <item>G.V.N.Hospital</item>
+        <item>Anbu Hospital</item>
+        <item>Maruti Hospital</item>
+        <item>Lakshmi Nursing Home</item>
+        <item>A.S. Imaging Centre and Hospital</item>
+        <item>Ariyalur Golden Hospital</item>
+        <item>Abirami Hospital</item>
+        <item>Cosmos Hospital</item>
+        <item>Apollo Logo Hospital</item>
+        <item>Shanthi Nursing Home</item>
+        <item>Muthu Meenakshi Hospital</item>
+        <item>Joint Hospital</item>
+        <item>Viveknanda</item>
+        <item>Kothiwal Hospital</item>
+    </string-array>
+    <string name="title_activity_main__maps_view">Map</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="MapView">Hospital on Map</string>
+    <string name="normal">Hospital details</string>
+    <string name="about">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
