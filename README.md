@@ -1,7 +1,7 @@
 # Warrior19
 The Android Application which helps to track the vacant Beds/Ventilators i the hospitals which provides covid19 treatment.
 
-Brief Description: In current scenario, the people cannot find the right hospitals, to go in hour of need so it might be the risk for the society as well as the life of that person. 
+Brief Description:
 So, we have came with an idea to develop an Android application which tracks the status of empty beds and ventilators in the nearby hospitals providing the corona treatment.
 
 For this,
@@ -18,3 +18,6 @@ For users,
 1. The users can see the nearby hospitals with the information of availability of beds.
 
 Technology used: Android, Google location API, Firebase.
+
+# Short Description
+In current scenario, the people cannot find the right hospitals, to go in hour of need so it might be the risk for the society as well as the life of that person. 
