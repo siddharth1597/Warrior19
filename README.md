@@ -23,3 +23,12 @@ Technology used: Android, Google location API, Firebase.
 
 ## What's the problem?
 In current scenario, the people cannot find the right hospitals, to go in hour of need so it might be the risk for the society as well as the life of that person. 
+
+## How can technology help?
+This an Android application, Android being an OS which nowadays everyone is using , Thus making this technology
+•	Easy to use
+•	User friendly
+•	Being a tracker, this could help the user not only to find out the hospitals but also track the availability of beds and resources
+•	 At hospital end , this increases the employment as well hospital patient interaction.
+
+
