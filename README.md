@@ -68,3 +68,24 @@ So a step towards humanity , towards mankind.
 ## Project Roadmap
 ![alt text](https://github.com/siddharth1597/Warrior19/blob/master/roadmap.png?raw=true)
 
+## Get Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+What things you need to setup the Application in [Android Studio](https://developer.android.com/studio). and how to install them, some dependencies are required for this project.
+    
+    //firebase dependencies for database
+    
+    implementation 'com.google.firebase:firebase-analytics:17.4.2'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.firebase:firebase-firestore:21.4.3'
+    implementation 'com.google.firebase:firebase-database:19.3.0'
+    implementation 'com.firebase:firebase-client-android:2.3.1'
+    
+    //Google dependencies for map
+    
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    
+ ## Built with 
+
+
