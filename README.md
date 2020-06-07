@@ -1,12 +1,12 @@
 # Warrior19
 The Android Application which helps to track the vacant Beds/Ventilators in the hospitals which provides covid19 treatment.
 
-# Short Description
+## Short Description
 
-## What's the problem?
+### What's the problem?
 During this pandemic covid19 we are seeing so many sad news where people are rushing here and there to find out the hospital for the patient and during this search the most painful event occurs where someone’s near and dear loses life.
 
-## How can technology help?
+### How can technology help?
 This an Android application, Android being an OS which nowadays everyone is using , Thus making this technology
 •	Easy to use
 •	User friendly
@@ -15,13 +15,13 @@ This an Android application, Android being an OS which nowadays everyone is usin
 
 Technology used: Android, Google location API, Firebase.
 
-## The idea
+### The idea
 The app Warrior 19 plays an important role by helping people in not only to locate the hospitals but also to ensure availability of beds and ventilators.
 
 The approach is pretty simple.Wehave two interfaces one for hospital side and other for user to operate. Hospital responsible to frequently update the data each night. The citizen can check the frequent updates of the beds and ventilators available near him which he can reach faster and feasibly.
 
 
-# Long Description
+## Long Description
 Moving on to the task that each module is assigned to :-
 
 ### For Hospital:
@@ -62,9 +62,9 @@ It is well said “What people see you do may not remembered; what they hear you
 
 So a step towards humanity , towards mankind.
 
-# Demo Video
+## Demo Video
 [![Alt text](https://github.com/siddharth1597/Warrior19/blob/master/video-demo.png)](https://drive.google.com/file/d/1NPwZ9vrIwY5cQqWxL5VzxFCHb_nqiLeI/view?usp=drivesdk)
 
-# Project Roadmap
+## Project Roadmap
 ![alt text](https://github.com/siddharth1597/Warrior19/blob/master/roadmap.png?raw=true)
 
